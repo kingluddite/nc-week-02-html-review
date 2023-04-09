@@ -1,0 +1,34 @@
+table {
+  font-family: arial, sans-serif;
+  /* border-collapse: collapse; */
+  width: 100%;
+}
+
+td,
+th {
+  border: 3px dashed tomato;
+  text-align: center;
+  padding: 20px;
+}
+
+tr:nth-child(odd) {
+  background-color: #dddddd;
+}
+
+tr:nth-child(even) {
+  background-color: blue;
+  color: white;
+}
+
+h2 {
+  color: purple; /* !important */
+}
+h2.special {
+  color: violet;
+}
+h2#super-special {
+  color: teal;
+}
+div:hover {
+  background-color: aquamarine;
+}
